@@ -26,7 +26,7 @@ jobs:
       - name: Unzip
         run: |
           mkdir build-src
-          unzip -q BarcodeBattleFold_v0.3.zip -d build-src
+          unzip -q BarcodeBattleFold_v0.4.zip -d build-src
 
       - name: Build APK
         working-directory: build-src/BarcodeBattleAndroid
