@@ -36,5 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: BarcodeBattle-APK
-          path: build-src/BarcodeBattleAndroid/app/build/outputs/apk/debug/app-debug.ap
-          k
+          path: build-src/BarcodeBattleAndroid/app/build/outputs/apk/debug/app-debug.apk
